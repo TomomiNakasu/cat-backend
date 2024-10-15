@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 
 
-const GetHandler = async(_req: NextRequest) => {
+const GetHandler = async() => {
     const data = {
         message: "Hello from API",
     };
